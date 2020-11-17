@@ -16,8 +16,8 @@ Proofing cabinet control software
 // <!-- Update these variables with values suitable for your setup.
 IPAddress mqttBroker(192, 168, 95, 11);                  // IP-Address of your MQTT-Broker
 char *topicPrefix = "myHome/basement/hobbyRoom/proofer"; // Your MQTT-Topic prefix
-const int oneWireBus = 3;                                // Number of the digital input the thermometer is connected to
-const uint8_t relayPin = 5;                              // Number of the digital output the relay is connect to
+const int oneWireBus = 2;                                // Number of the digital input the thermometer is connected to
+const uint8_t relayPin = 0;                              // Number of the digital output the relay is connect to
 // -->
 
 float actualTemperature = 0;
